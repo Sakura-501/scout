@@ -8,6 +8,8 @@ Logs：存放控制台输出的日志记录，具体结构在Logger.py中
 
 traindata：包括有black-traindata和white-traindata两个目录存放webshell训练集和normal训练集，pre_feature.pkl为训练集中提取的特征值的序列化数据，具体结构可见pre_pickle.py，rfc.pkl为使用joblib存储的RandomForestClassifier模型
 
+check: 存放待模型去检测的数据集，也可自行更改目录。
+
 getDynamicFeature.py：包括有获取opcode动态特征值的各种函数（现在只搞了92种）
 
 geStaticFeature.py：包括有获取信息熵、重合指数和四种恶意特征函数统计静态特征值的各种函数
@@ -47,7 +49,7 @@ https://github.com/x-o-r-r-o/PHP-Webshells-Collection（这个好像跟前面的
 
 ## 一些废话
 
-我训练了traindata目录下的所有数据，成功训练了829个php-webshell和1741个正常php文件。本来php-webshell是有1113个的，但是因为编码错误或者vld拓展解析不了失败了200多个。
+我训练了traindata目录下的所有数据，成功训练了829个php-webshell和1741个正常php文件。本来php-webshell是有1113个的，但是因为编码错误或者vld拓展解析不了失败了200多个。我设置的默认编解码方式是gbk，出错的话会直接跳过进行摆烂行为。暂时不知道如何解决。
 
 现在输出是在cmd和日志中，后续应该可以做成ui吧😕
 

@@ -16,6 +16,7 @@ trainmodel = trainModel()
 loadmodel_name=r"C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\rfc.pkl"
 # 需要进行检测的文件目录
 filecheck_name=r"C:\Users\Lenovo\Desktop\python3Project\school\works\scout\check"
+# filecheck_name=r"C:\Users\Lenovo\Desktop\python3Project\school\works\scout\webshell-test-samples"
 
 def run_check():
     # 获取需要检测的文件夹的所有文件
