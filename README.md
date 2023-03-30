@@ -8,6 +8,8 @@ Logs：存放控制台输出的日志记录，具体结构在Logger.py中
 
 traindata：包括有black-traindata和white-traindata两个目录存放webshell训练集和normal训练集，pre_feature.pkl为训练集中提取的特征值的序列化数据，具体结构可见pre_pickle.py，rfc.pkl为使用joblib存储的RandomForestClassifier模型
 
+check: 存放待模型去检测的数据集，也可自行更改目录。
+
 getDynamicFeature.py：包括有获取opcode动态特征值的各种函数（现在只搞了92种）
 
 geStaticFeature.py：包括有获取信息熵、重合指数和四种恶意特征函数统计静态特征值的各种函数
