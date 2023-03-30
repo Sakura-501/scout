@@ -49,7 +49,7 @@ https://github.com/x-o-r-r-o/PHP-Webshells-Collection（这个好像跟前面的
 
 ## 一些废话
 
-我训练了traindata目录下的所有数据，成功训练了829个php-webshell和1741个正常php文件。本来php-webshell是有1113个的，但是因为编码错误或者vld拓展解析不了失败了200多个。
+我训练了traindata目录下的所有数据，成功训练了829个php-webshell和1741个正常php文件。本来php-webshell是有1113个的，但是因为编码错误或者vld拓展解析不了失败了200多个。我设置的默认编解码方式是gbk，出错的话会直接跳过进行摆烂行为。暂时不知道如何解决。
 
 现在输出是在cmd和日志中，后续应该可以做成ui吧😕
 
