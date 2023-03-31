@@ -69,9 +69,7 @@ https://github.com/x-o-r-r-o/PHP-Webshells-Collection（这个好像跟前面的
 
 ![主窗口](https://files.catbox.moe/f9iz8k.png)
 
-![随机森林检测模块](https://files.catbox.moe/ina89w.png)
-
-
+![随机森林检测模块](https://files.catbox.moe/wv8a0b.png)
 
 
 ## 一些废话
