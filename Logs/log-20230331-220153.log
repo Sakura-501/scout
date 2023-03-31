@@ -1,0 +1,25 @@
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\check
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\rfc.pkl
+1:C:/Users/Lenovo/Desktop/python3Project/school/works/scout/test\1.php is webshell
+2:C:/Users/Lenovo/Desktop/python3Project/school/works/scout/test\index.php is normal
+1:C:/Users/Lenovo/Desktop/python3Project/school/works/scout/test\1.php is webshell
+2:C:/Users/Lenovo/Desktop/python3Project/school/works/scout/test\index.php is normal
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python3.9.2\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "C:\Users\Lenovo\Desktop\python3Project\school\works\scout\main.py", line 186, in <lambda>
+    check_button = Button(text="开始检测", font=('华文行楷', 20, 'bold'),command=lambda :run_check(result_listbox))
+  File "C:\Users\Lenovo\Desktop\python3Project\school\works\scout\main.py", line 47, in run_check
+    check(result_listbox)
+  File "C:\Users\Lenovo\Desktop\python3Project\school\works\scout\main.py", line 63, in check
+    if predict_result[i] == 0:
+IndexError: index 2 is out of bounds for axis 0 with size 2
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\python3Project\school\works\scout\main.py", line 211, in <module>
+    run_tkinter_check()
+  File "C:\Users\Lenovo\Desktop\python3Project\school\works\scout\main.py", line 194, in run_tkinter_check
+    root_window.mainloop()
+  File "D:\Python3.9.2\lib\tkinter\__init__.py", line 1429, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt

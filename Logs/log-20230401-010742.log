@@ -1,0 +1,11 @@
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\check
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\rfc.pkl
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python3.9.2\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "C:\Users\Lenovo\Desktop\python3Project\school\works\scout\main.py", line 202, in <lambda>
+    check_button = Button(canvas,text="开始检测", font=('华文行楷', 20, 'bold'),command=lambda :run_check(result_listbox))
+  File "C:\Users\Lenovo\Desktop\python3Project\school\works\scout\main.py", line 113, in run_check
+    wait_window = Toplevel(root_window)
+NameError: name 'root_window' is not defined
