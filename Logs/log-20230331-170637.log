@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\Lenovo\Desktop\python3Project\school\works\scout\main.py", line 154, in <module>
-    run_tkinter()
-  File "C:\Users\Lenovo\Desktop\python3Project\school\works\scout\main.py", line 108, in run_tkinter
-    root_window.iconbitmap("../scout.ico")
-  File "D:\Python3.9.2\lib\tkinter\__init__.py", line 2080, in wm_iconbitmap
-    return self.tk.call('wm', 'iconbitmap', self._w, bitmap)
-_tkinter.TclError: bitmap "../scout.ico" not defined
