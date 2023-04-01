@@ -4,6 +4,8 @@
 
 学习过程：https://www.yuque.com/sakura501/school/wc5qr9qeq7mdhfls
 
+飞书文档：https://kjd3xtsq9r.feishu.cn/docx/I1D9dwEyQoD876x4lx9c8aHanyg
+
 ## 目录&文件说明
 
 Logs：存放控制台输出的日志记录，具体结构在Logger.py中
