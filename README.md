@@ -36,6 +36,8 @@ img：存放了tkinter需要使用的一些图片。
 
 如果只使用检测模块，直接`python main.py`即可（现在主要完成了随机森林检测模块，主要tkinter的逻辑在run_tkinter_root函数中）
 
+温馨提示：训练模块中，可以先提取数据，再训练，因为提取特征值会耗费大量时间。同时，在训练集目录下除了black-traindata和white-traindata目录可以放置php文件，其他不可以放php文件，会出错！
+
 ### tkinter的主要思想
 主窗口：父窗口有四个功能按钮Button，主要放置在Canvas画布上，点击后可以弹出对应功能子窗口，进行功能使用；打开子窗口可以隐藏父窗口，关闭子窗口的同时能够返回父窗口。
 
@@ -75,6 +77,7 @@ https://github.com/x-o-r-r-o/PHP-Webshells-Collection（这个好像跟前面的
 
 ![随机森林检测模块](https://files.catbox.moe/wv8a0b.png)
 
+![随机森林训练模块](https://files.catbox.moe/a3dvmw.png)
 
 ## 一些废话
 

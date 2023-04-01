@@ -1,0 +1,508 @@
+随机森林训练模块
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\rfc-default.pkl
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpspy\2011.php
+run_getStaticFeature error!
+2011.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020-08-31-01.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.01.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.02.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.03.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.04.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.05.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.06.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.07.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.08.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.09.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.10.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.11.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.12.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.13.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.14.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.15.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.16.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.17.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.18.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.19.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2020.08.20.20.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-08-26-01.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-08-26-02.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-08-26-03.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-08-26-04.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-08-26-05.php
+get_opcodes error!
+2022-08-26-05.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-08-26-06.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-08-26-07.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-08-26-08.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-09-09-02.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-09-09-03.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-09-09-04.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-09-09-05.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\2022-09-0901.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\20220206.php
+get_opcodes error!
+20220206.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\20220207.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\20220213_04.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\20220213_05.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\20220213_06.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\white-traindata\wordpress-develop-trunk\src\wp-content\themes\twentytwentyone\404.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\404.php.no.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\404.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\5678.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\admine21.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\admine21_decode.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\aioshell.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\angel大马.php
+run_getStaticFeature error!
+angel大马.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\AntSword_2021-03-06.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\array_intersect_uassoc-filename-last-char-must-be-r.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\array_intersect_uassoc-filename-last-char-must-be-s.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\array_intersect_uassoc-headers-accept-r.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\array_intersect_ukey-cookie-ass.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\array_intersect_ukey.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\array_udiff_assoc.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\ass.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\asw.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\bat.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\bat_2.7.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\bat_b4tm4n.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\biantai.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\BNKQbAKQ.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\bypass-dog-2020-01-30.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\bypass-safedog-2016-08-29.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\bypass-waf-2015-06-10-01.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\bypass-waf-2015-06-16-01.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\bypass-waf-2015-06-16-02.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\bypass-waf-2015-06-16-03.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\bypass-with-base32.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\bypass2021-01-04-01.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\carbylamine.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\conflg1.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\cotent01.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\Crack8_PHP.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\create_code_with_xor.py
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\create_webshell_with_py.py
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\cvwfzthj.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\DAws.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\error52.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\fbi.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\Fig4-web-shell-example-2.png
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\forward_static_call_array-referer-ass.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\general.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\get1.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\getConstants.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\getConstants2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\ghost.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\ghost_source.php
+get_opcodes error!
+ghost_source.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\gif.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\gzismexv.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\h6ss.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\How To Exploit PHP Remotely To Bypass Filters & WAF Rules.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\icesword.php
+run_getStaticFeature error!
+icesword.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\indrajith-2.0.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\indrajith.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\itsec.php
+run_getStaticFeature error!
+itsec.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\job.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\koplak_php%3Bme.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\lnc.php
+get_opcodes error!
+lnc.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\lpl38-com-php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\mof提权带回显带清楚命令版本.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\no2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\oi.php.decode.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\oi.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\other-decode.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\other.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\pass-waf-2014-10-19.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\php-extension-backdoor.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\php-xor.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\php-xor.php.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\php1.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\php7.1_bypass.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpshell.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\Phpspy 2010 身份验证绕过漏洞
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\Phpspy 2011 继续身份验证绕过漏洞
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpwebshell pass by waf for share.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\php_niu_1.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\php_niu_2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\php_webshell.py
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\php一句话
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\php一句话02.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\pHp一句话扫描脚本程序.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\php版iisspy.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHP简单小马源码.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\poison.php
+run_getStaticFeature error!
+poison.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\priv8-2012-bypass-shell.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\priv95.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\r00ts php大马.php
+run_getStaticFeature error!
+r00ts php大马.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\white-traindata\wordpress-develop-trunk\tests\visual-regression\README.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\Resume.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\reverseshell-poc.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\s.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\session91.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\white-traindata\wordpress-develop-trunk\src\wp-includes\Text\Diff\Engine\shell.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\shell.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\Shu1337.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\silic.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\simple_2022_08_15.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\spy.php
+run_getStaticFeature error!
+spy.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\supers.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\sure.php_.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\system2022-08-22-2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\system2022-08-22-3.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\system2022-08-22-4.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\system2022-08-22.php
+get_opcodes error!
+system2022-08-22.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\test.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\tiamo.php.decode.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\tiamo.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\tips.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\tk.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\tk_dencode_1.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\ucen.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\upsi1on.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\w.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\webshell-123.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\webshell-cnseay-x.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\webshell-cnseay02-1.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\webshell-without-alphanumeric2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\webshell免杀-提升兼容性.html
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wloymzuk.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wp_backup.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso2.5.1.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso2.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\xd20.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\xd30.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\xiao.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\xiaom.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\xslt.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\xw.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\YXNzZXJ0YWE.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\yyihacker.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\zone_hackbar.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\zone_hackbar_beutify.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\zone_hackbar_other.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\zw.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\一个过安全狗的pHp一句话.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\一句话2015-06-10-01.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\一句话2015-06-10-02.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\一句话2015-06-10-03.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\一句话木马的精简史.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\不带引号的pHp一句话.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\另类PHP一句话小马.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\国外某论坛不含Get,Post的pHp一句话.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\极其隐蔽的pHp小马穿插在正常页面中.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\某变异pHp一句话木马.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\牛X的pHp一句话.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\过各大杀软的pHp一句话.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\非常规的pHp一句话木马.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\12309\12309.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\blackbin\v1\readme.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\Ani-Shell.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\white-traindata\wordpress-develop-trunk\tests\phpunit\README.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-2.2.min.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-2.2.poly.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-2.3.min.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-2.3.poly.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-2.4.min.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-2.4.poly.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-2.5.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-2.6.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\b374k-2.7.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-2.8.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-3.2.2.min.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\source\b374k-3.2.2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-3.2.3.min.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-3.2.3.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\b374k-master-3.2.3.zip
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\mini_b374k
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\source\b374k-2.2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\source\b374k-2.3.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\source\b374k-2.4.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\source\b374k-2.5.source.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\source\b374k-2.6.source.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\source\b374k-2.7.source.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\b374k\source\b374k-2.8.source.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\blackbin\404super.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\blackbin\v1\code.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\blackbin\v1\dev_core.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\blackbin\v1\make2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\img\20140901-01.png
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\img\20140901-02.png
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\img\20140901-03.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\img\20140901-04.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\img\20140901-05.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\img\20140901-06.png
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\img\bypass-imagecreatefromgif-pass-00.gif
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\MemShellForPHP\memWebshell.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\MemShellForPHP\test.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\p2j\11.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\p2j\PHP reflection.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\p2j\PHP反射后门.php.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\PHP-backdoors-master\Obfuscated\Readme.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\pas.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\pas\password.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\php-sh\client.py
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\bns-php-shell\server.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpkit-1.0\odd.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpkit-0.2a\phpkit.py
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\white-traindata\wordpress-develop-trunk\tests\phpunit\data\formatting\utf-8\README
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpkit-0.2a\CHANGELOG
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpkit-0.2a\upload.py
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpkit-1.0\phpkitcli.py
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\Antichat Shell v1.3.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\Antichat Shell v1.3\Antichat.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\c99\c99.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\c99.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\c99shell\c99shell.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\c99shell\c99shell.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\c99_locus7s\c99_locus7s.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-webshells\c99_locus7s.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\c99_locus7s\c99_locus7s2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\c99_PSych0\c99_PSych0.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\c99_PSych0.php
+run_getStaticFeature error!
+c99_PSych0.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\c99_w4cking\c99_w4cking.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\c99_w4cking.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\c99_w4cking\c99_w4cking2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\Crystal\Crystal.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\Crystal.php
+run_getStaticFeature error!
+Crystal.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\Crystal\Crystal2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\Crystal\Crystal3.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\ctt_sh\ctt_sh.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\ctt_sh.php
+run_getStaticFeature error!
+ctt_sh.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\Dx\Dx.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\Dx.php
+run_getStaticFeature error!
+Dx.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\gfs_sh\gfs_sh.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\gfs_sh.php
+run_getStaticFeature error!
+gfs_sh.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\gfs_sh\gfs_sh2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\iMHaPFtp\iMHaPFtp.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\iMHaPFtp.php
+run_getStaticFeature error!
+iMHaPFtp.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\Mysql interface v1.0\Mysql interface v1.0.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\Mysql interface v1.0.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\MySQL Web Interface Version 0.8\MySQL Web Interface Version 0.8.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\MySQL Web Interface Version 0.8.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\NetworkFileManagerPHP\NetworkFileManagerPHP.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\NetworkFileManagerPHP.php
+run_getStaticFeature error!
+NetworkFileManagerPHP.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\NetworkFileManagerPHP\NetworkFileManagerPHP2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\NIX REMOTE WEB-SHELL v.0.5 alpha Lite Public Version\NIX REMOTE WEB-SHELL.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\NIX REMOTE WEB-SHELL v.0.5 alpha Lite Public Version\NIX REMOTE WEB-SHELL.php
+run_getStaticFeature error!
+NIX REMOTE WEB-SHELL.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\NIX REMOTE WEB-SHELL v.0.5 alpha Lite Public Version\NIX REMOTE WEB-SHELL2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\nstview\nstview.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\nstview.php
+run_getStaticFeature error!
+nstview.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\nstview\nstview2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\PH Vayv\PH Vayv.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\PH Vayv.php
+run_getStaticFeature error!
+PH Vayv.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\PHP Shell\PHP Shell.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\PHP Shell.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\PHP Shell\PHP Shell2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\PHP Shell\PHP Shell3.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\PHPRemoteView\PHPRemoteView.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-webshells\PHPRemoteView.php
+run_getStaticFeature error!
+PHPRemoteView.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\PHPRemoteView\PHPRemoteView2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\r57shell\r57shell.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\r57shell.php
+run_getStaticFeature error!
+r57shell.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\r57shell127\r57shell127.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\r57shell127.php
+run_getStaticFeature error!
+r57shell127.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\SnIpEr_SA Shell\SnIpEr_SA Shell.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\SnIpEr_SA Shell.php
+run_getStaticFeature error!
+SnIpEr_SA Shell.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\zacosmall\zacosmall.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-webshells\zacosmall.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【C99madShell v. 3.0】\C99madShell v. 3.0.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\smowu.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【c99_madnet】\c99_madnet.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【c99_madnet】\c99_madnet2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【ironshell】\密码.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【c99_madnet】\连接密码.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\EgY_SpIdEr ShElL V2.php
+run_getStaticFeature error!
+EgY_SpIdEr ShElL V2.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【EgY_SpIdEr ShElL V2】\EgY_SpIdEr ShElL V2.php.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【EgY_SpIdEr ShElL V2】\EgY_SpIdEr ShElL V2.php2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【ironshell】\ironshell.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-webshells\ironshell.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【PHPJackal v1.5】\PHPJackal v1.5.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【PHPJackal v1.5】\PHPJackal v1.5.php
+run_getStaticFeature error!
+PHPJackal v1.5.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【PHPJackal】\PHPJackal.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\PHPJackal.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【PHPJackal】\PHPJackal2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【phpshell-2.1】\config.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【phpshell-2.1】\INSTALL
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【phpshell-2.1】\phpshell3.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【phpshell-2.1】\phpshell3.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【phpshell-2.1】\pwhash.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\white-traindata\wordpress-develop-trunk\tests\phpunit\data\themedir1\webfonts-theme\style.css
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【phpshell-2.1】\备注.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【r57】\r57.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【r57】\r572.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\r57_iFX.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【r57_karta】\r57_kartal.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\r57_kartal.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【r57_karta】\r57_kartal2.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【r57_Mohajer22】\r57_Mohajer22.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\r57_Mohajer22.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【r57_Mohajer22】\r57_Mohajer222.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-webshells\r57.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\PHPshell\【Shell [ci] .Biz was here】\Shell [ci] .Biz was here.jpg
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\Shell [ci] .Biz was here.php
+run_getStaticFeature error!
+Shell [ci] .Biz was here.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\2008.php
+run_getStaticFeature error!
+2008.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\2009lite.php
+run_getStaticFeature error!
+2009lite.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\2009mssql.php
+run_getStaticFeature error!
+2009mssql.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpspy\2013加密.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpspy\2013未加密.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpspy\2014phpspy.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\phpspy2010.php
+run_getStaticFeature error!
+phpspy2010.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpspy\phpspy_2005_full.php
+run_getStaticFeature error!
+phpspy_2005_full.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpspy\phpspy_2005_lite.php
+run_getStaticFeature error!
+phpspy_2005_lite.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\phpspy\phpspy_2006.php
+run_getStaticFeature error!
+phpspy_2006.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\SaiProbe\SaiProbe_v1.0.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\tank96a\getcode.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\webshell.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\tw\2015-09-12.md
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\twitter\1n73ction.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\twitter\404 shell code.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\twitter\adminer-4.2.4.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\twitter\bh.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\twitter\bukapalapak.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\twitter\gamestopceker.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\twitter\mailer.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\twitter\promailerv2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\twitter\qyt0dHv1.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\twitter\v4xGus6X.php
+get_opcodes error!
+v4xGus6X.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wpes\wpes-v0.2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wsb\idc.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wsb\ReadMe.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wsb\wsb.pl
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\wso-4.1.3.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\wso-4.2.0.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\wso-4.2.1.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\wso-4.2.2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\wso-4.2.3.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\wso-4.2.4.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\wso-4.2.5.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\wso-master.zip
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\wso.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\wso2.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\wso2_pack.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\wso_404.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\WSO_4_0_5.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso\WSO_base64.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso-ng\wso-ng.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\wso-ng\wsoExGently.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\YAPS\yaps.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\zxc\.v.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\zxc\bypass403.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php\zxc\kyo.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\12309.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\404 Not Found.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\404webshell.php
+get_opcodes error!
+404webshell.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-webshells\529.php
+run_getStaticFeature error!
+529.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\A robust backdoor script made by Daniel Berliner.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-webshells\accept_language.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\OTHER\Ajax_PHP Command Shell.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\AK-74 Security Team Web Shell Beta Version.php
+run_getStaticFeature error!
+AK-74 Security Team Web Shell Beta Version.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\AK-74 Security Team.php
+run_getStaticFeature error!
+AK-74 Security Team.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\angel.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\Antichat Shell. Modified by Go0o$E.php
+run_getStaticFeature error!
+Antichat Shell. Modified by Go0o$E.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\Antichat Shell.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\Antichat Socks5 Server v 1.0.php
+run_getStaticFeature error!
+Antichat Socks5 Server v 1.0.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\Antichat_Shell_v1.3.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\Aria cPanel cracker version 1.0 - Edited By KingDefacer.php
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\ASPYDrvsInfo.php
+get_opcodes error!
+ASPYDrvsInfo.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\ava Server Faces MiniWebCmdShell 0.2 by HeartLESS.php
+get_opcodes error!
+ava Server Faces MiniWebCmdShell 0.2 by HeartLESS.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\AventGrup-Sincap 1.0.php
+run_getStaticFeature error!
+AventGrup-Sincap 1.0.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\Ayyildiz Tim  -AYT- Shell v 2.1 Biz.php
+run_getStaticFeature error!
+Ayyildiz Tim  -AYT- Shell v 2.1 Biz.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\Ayyildiz Tim  -AYT- Shell v 2.1 Biz.txt
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\Php-2\azrail 1.0 by C-W-M.php
+run_getStaticFeature error!
+azrail 1.0 by C-W-M.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-awsome\aZRaiLPhp v1.0.php
+run_getStaticFeature error!
+aZRaiLPhp v1.0.php error!
+C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\black-traindata\php-webshells\aZRaiLPhp_v1.0.php
+run_getStaticFeature error!
+aZRaiLPhp_v1.0.php error!

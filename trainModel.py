@@ -8,6 +8,8 @@ from getStaticFeature import *
 from getDynamicFeature import *
 from pre_pickle import feature_lable
 from sklearn.ensemble import RandomForestClassifier
+from tkinter import *
+from threading import Thread
 
 allrealopcodes = []
 filelist = {}
@@ -18,26 +20,99 @@ label=[]
 black_number=0
 white_numer=0
 
-# 训练数据所在目录，需要分为两个目录black-traindata和white-traindata
-fileread_name=r"C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata"
 # 特征值提取后，需要使用pickle序列化保存成文件，以供后续读取训练，这是保存路径
-prefeature_pickleload_name=r"C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\pre_feature.pkl"
-# 模型生成保存的路径
-createmodel_name=r'C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\rfc.pkl'
+prefeature_pickleload_name = r"C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\pre_feature-default.pkl"
 
 class trainModel:
-    def run_trainModel(self):
-        # 获取文件夹的所有文件
-        self.fileread(fileread_name)
+    # 训练数据所在目录，需要分为两个目录black-traindata和white-traindata
+    fileread_name = r"C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata"
+    # 模型生成保存的路径
+    createmodel_name = r'C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\rfc-default.pkl'
 
+    # 训练模型主函数。还是得把Listbox传递过来写值
+    def run_trainModel(self,preditc_result_listbox):
+        print(self.fileread_name)
+        print(self.createmodel_name)
+
+        # 先清空结果列表
+        preditc_result_listbox.delete(0, END)
+
+        # 下面这一大段都是弹出等待提示不要点击
+        # 创建Toplevel窗口作为等待提示框
+        wait_window = Toplevel()
+        wait_window.title("请稍候...")
+        wait_window.geometry("300x100")
+        wait_window.resizable(False, False)
+        # 将焦点锁定在等待提示框上，禁止用户点击主窗口
+        wait_window.grab_set()
+        # 将等待提示框提升到所有窗口的最前面
+        wait_window.lift()
+        # 创建等待提示框的Label
+        wait_label = Label(wait_window, text="请稍候...", font=("Arial", 20))
+        wait_label.pack(pady=20)
+        # 禁用等待提示框的关闭按钮
+        wait_window.protocol("WM_DELETE_WINDOW", lambda: None)
+
+        # 获取文件夹的所有文件
+        self.fileread(self.fileread_name)
         # 统计一下一个目录下所有的php文件数量，需要先进行fileread
         # phpnumbers=self.get_phpnumbers()
 
-        # 1、获取所有的特征值和标签，并序列化写入文件存储
-        self.get_all_predata()
+        # 1、获取所有的特征值和标签，并序列化写入文件存储,由于较慢，开启线程堵塞,提示窗口弹出不要点击
+        thread_get_feature=Thread(target=self.get_all_predata)
+        thread_get_feature.start()
+        while thread_get_feature.is_alive():
+            wait_label.config(text="训练中，请不要点击😊")
+            wait_window.update_idletasks()
 
         # 2、然后直接pickle.load拿提取的预训练数据集直接fit就好了,这就是sklearn的事了
         self.create_model()
+
+        # 3、新增第三个功能，拿训练好的模型对训练数据进行预测，并整合结果分析到listbox中
+        self.model_predict(preditc_result_listbox)
+
+        # 关闭等待提示框并释放焦点锁定
+        wait_window.destroy()
+
+    def model_predict(self,preditc_result_listbox):
+        # 为了方便，就不用重新提取数据了，因为前面已经将特征值保存到了序列化文件中：prefeature_pickleload_name
+        # 反序列化读取数据
+        fileopen = open(prefeature_pickleload_name, "rb")
+        pickle_loaddata = pickle.load(fileopen)
+        fileopen.close()
+
+        # 加载模型
+        rfc = joblib.load(self.createmodel_name)
+        # 模型预测
+        predict_result = rfc.predict(pickle_loaddata.feature_value)
+
+        # 根据predict_result和pickle_loaddata.label_value开始计算四个模型标准值
+        TP,TN,FP,FN=0,0,0,0
+        for i in range(len(predict_result)):
+            if (pickle_loaddata.label_value[i] == 1 and predict_result[i] == 1):
+                TP += 1
+            elif (pickle_loaddata.label_value[i] == 0 and predict_result[i] == 0):
+                TN += 1
+            elif (pickle_loaddata.label_value[i] == 0 and predict_result[i] == 1):
+                FP += 1
+            elif (pickle_loaddata.label_value[i] == 1 and predict_result[i] == 0):
+                FN += 1
+        print("TP: "+str(TP))
+        print("TN: " + str(TN))
+        print("FP: " + str(FP))
+        print("FN: " + str(FN))
+        accuracy = (TP + TN) / (TP + TN + FP + FN)
+        precision = TP / (TP + FP)
+        recall = TP / (TP + FN)
+        F1 = (2 * precision * recall) / (precision + recall)
+        accuracy_show="Accuracy is: "+str(accuracy)
+        preditc_result_listbox.insert(END,accuracy_show)
+        precision_show="Precision is: "+str(precision)
+        preditc_result_listbox.insert(END, precision_show)
+        recall_show="Recall is: "+str(recall)
+        preditc_result_listbox.insert(END,recall_show)
+        F1_show="F1 is: "+str(F1)
+        preditc_result_listbox.insert(END, F1_show)
 
     def create_model(self):
         # 反序列化读取数据
@@ -46,18 +121,21 @@ class trainModel:
         # print(pickle_loaddata.feature_value)
         # print(pickle_loaddata.label_value)
         fileopen.close()
-        # 开始训练,参数设置是一个玄学
+
+        # 开始训练,参数设置是一个玄学,需要好好调教一下
         rfc=RandomForestClassifier(bootstrap=True,n_estimators=100,criterion="gini",min_samples_split=2,max_depth=None,min_samples_leaf=1,random_state=0)
+
         rfc.fit(pickle_loaddata.feature_value,pickle_loaddata.label_value)
         # rfc模型保存
-        joblib.dump(rfc,createmodel_name)
+        joblib.dump(rfc,self.createmodel_name)
 
     def get_all_predata(self):
         global pre_feature_value,label,black_number,white_numer
+        pre_feature_value,label=[],[]
+        black_number,white_numer=0,0
         for filename, fullpath in filelist.items():
             # 觉得还是做一个文件后缀检测提高效率比较好
             (_, extension) = os.path.splitext(fullpath)
-            print(fullpath)
             if extension == ".php":
                 # 防止一些编码错误导致程序不正常运行
                 try:
@@ -90,7 +168,7 @@ class trainModel:
                         label.append(0)
                         white_numer+=1
                 except:
-                    print(filename+" error!")
+                    print(fullpath+" error!")
                     continue
 
         # 提取完所有的特征值和标签后使用pickle序列化写入文件中
@@ -152,6 +230,7 @@ class trainModel:
 
     def fileread(self,filepath):
         global filelist
+        filelist= {}
         for root, dirs, files in os.walk(filepath):
             # print(root,dirs,files)
             for filename in files:
