@@ -83,9 +83,11 @@ https://github.com/x-o-r-r-o/PHP-Webshells-Collection（这个好像跟前面的
 https://www.yuque.com/sakura501/school/wc5qr9qeq7mdhfls
 
 ## 待解决的问题OR完善
-随机森林检测模块UI制作√
 
-随机森林训练模块UI制作
-
-对于编码错误或者无法检测的php文件输出检测error到控制台和UI中
+- [ ] 随机森林调参优化
+- [ ] 随机森林训练模块UI制作
+- [x] 随机森林检测模块UI制作
+- [ ] 神经网路训练模块UI制作
+- [ ] 神经网络检测模块UI制作
+- [ ] 对于编码错误或者无法检测的php文件输出检测error到控制台和UI中
 

@@ -187,7 +187,7 @@ def run_tkinter_RFCcheck():
     canvas.create_window(20, 170, width=960, height=30, window=select_entry, anchor=W)
 
     # 选择模型路径按钮&选中模型路径后展示文本框
-    select_model_button = Button(canvas,text="选择模型路径", font=('华文行楷', 20, 'bold'),command=lambda :select_file(model_text))
+    select_model_button = Button(canvas,text="加载模型路径", font=('华文行楷', 20, 'bold'),command=lambda :select_file(model_text))
     canvas.create_window(500, 120, window=select_model_button)
     model_entry = Entry(canvas,textvariable=model_text)
     canvas.create_window(20, 205, width=960, height=30, window=model_entry, anchor=W)
