@@ -2,6 +2,8 @@
 
 一个基于随机森林（1+1+4+92种特征）进行机器学习的php-webshell检测项目，后续可能添加神经网络进行训练，UI制作主要基于Python内置库tkinter，持续优化中~
 
+学习过程：https://www.yuque.com/sakura501/school/wc5qr9qeq7mdhfls
+
 ## 目录&文件说明
 
 Logs：存放控制台输出的日志记录，具体结构在Logger.py中
@@ -78,9 +80,7 @@ https://github.com/x-o-r-r-o/PHP-Webshells-Collection（这个好像跟前面的
 
 现在输出是在cmd和日志中，后续应该可以做成ui吧😕
 
-最后附上自己的学习过程：
 
-https://www.yuque.com/sakura501/school/wc5qr9qeq7mdhfls
 
 ## 待解决的问题OR完善
 
