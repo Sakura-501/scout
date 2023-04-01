@@ -12,8 +12,6 @@ from Logger import *
 from tkinter import *
 
 
-
-
 def check(result_listbox):
     # 加载模型
     rfc=joblib.load(loadmodel_name)
@@ -104,17 +102,17 @@ def select_file(setfile):
     setfile.set(filename)
     loadmodel_name=setfile.get()
 
-# 还是得把result_listbox传过来才行。这里是主要的随机森林检测运行模块
+# 这里是主要的随机森林检测运行模块,还是得把result_listbox传过来才行。
 def run_check(result_listbox):
     # 先清空结果列表
     result_listbox.delete(0, END)
 
+    # 下面这一大段都是弹出等待提示不要点击
     # 创建Toplevel窗口作为等待提示框
     wait_window = Toplevel()
     wait_window.title("请稍候...")
     wait_window.geometry("300x100")
     wait_window.resizable(False, False)
-
     # 将焦点锁定在等待提示框上，禁止用户点击主窗口
     wait_window.grab_set()
     # 将等待提示框提升到所有窗口的最前面
@@ -122,20 +120,18 @@ def run_check(result_listbox):
     # 创建等待提示框的Label
     wait_label = Label(wait_window, text="请稍候...", font=("Arial", 20))
     wait_label.pack(pady=20)
-
     # 禁用等待提示框的关闭按钮
     wait_window.protocol("WM_DELETE_WINDOW", lambda: None)
 
     # 获取需要检测的文件夹的所有文件
     fileread(filecheck_name)
-    # 提取特征值哦
+    # 提取所以待检测文件的特征值
     thread_get_feature = Thread(target=get_feature)
     thread_get_feature.start()
     # 在等待提示框中显示提示信息
     while thread_get_feature.is_alive():
         wait_label.config(text="检测中，请不要点击😊")
         wait_window.update_idletasks()
-        # time.sleep(0.1)
 
     # 检测启动
     check(result_listbox)
@@ -204,20 +200,17 @@ def run_tkinter_RFCcheck():
     # 检测结果标题
     canvas.create_text(500, 245, text="检测结果", font=('华文行楷', 30, 'bold'))
 
-
-
     # 添加关闭事件
     RFCcheck_window.protocol("WM_DELETE_WINDOW", lambda: close_second_window(RFCcheck_window))
 
-# 一个重要的函数，关闭子窗口并且回复父窗口
+# 一个重要的函数，关闭子窗口并且恢复父窗口
 def close_second_window(second_window):
     # 销毁第二个窗口
     second_window.destroy()
-
     # 显示主窗口
     root.deiconify()
 
-# # 运行主窗口，控制各个模块的窗口的打开
+# 运行主窗口，控制各个模块的窗口的打开
 def run_tkinter_root():
     # 一些root窗口的设置
     root.title("PHP-Webshell-Scout")

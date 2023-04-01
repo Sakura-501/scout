@@ -52,9 +52,6 @@ class trainModel:
         # rfc模型保存
         joblib.dump(rfc,createmodel_name)
 
-
-
-
     def get_all_predata(self):
         global pre_feature_value,label,black_number,white_numer
         for filename, fullpath in filelist.items():
@@ -84,9 +81,6 @@ class trainModel:
                         temp_value.append(ef)
                     # 汇总后加入到预处理训练集合中
                     pre_feature_value.append(temp_value)
-                    # print(len(temp_value))
-                    # print(pre_feature_value)
-                    # print(len(pre_feature_value))
 
                     # 把特征值写入后，还需要写入对应的标签，表示该特征值是webshell还是普通文本
                     if "black-traindata" in fullpath:

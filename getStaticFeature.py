@@ -46,8 +46,6 @@ class getStaticFeature:
         include4 = ['gzdeflat', 'gzcompress', 'gzuncompress', 'gzdecode', 'str_rot13', 'gzencode', 'base64_decode',
                     'base64_encode']
         num1,num2,num3,num4=0,0,0,0
-        # content=jieba.lcut(data)
-        # 用nltk代替jieba把
         content = nltk.word_tokenize(data)
         # print(content)
         for s in content:
@@ -62,7 +60,6 @@ class getStaticFeature:
                     num3+=1
                 elif s in include4:
                     num4+=1
-
         return num1,num2,num3,num4
 
 
