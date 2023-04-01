@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\Lenovo\Desktop\python3Project\school\works\scout\main.py", line 245, in <module>
-    run_tkinter_root()
-  File "C:\Users\Lenovo\Desktop\python3Project\school\works\scout\main.py", line 219, in run_tkinter_root
-    root.mainloop()
-  File "D:\Python3.9.2\lib\tkinter\__init__.py", line 1429, in mainloop
-    self.tk.mainloop(n)
-KeyboardInterrupt
