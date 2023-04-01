@@ -21,7 +21,7 @@ black_number=0
 white_numer=0
 
 # 特征值提取后，需要使用pickle序列化保存成文件，以供后续读取训练，这是保存路径
-prefeature_pickleload_name = r"C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\pre_feature-default.pkl"
+prefeature_pickleload_name = r"traindata/pre_feature-default.pkl"
 
 class trainModel:
     # 训练数据所在目录，需要分为两个目录black-traindata和white-traindata

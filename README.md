@@ -1,6 +1,6 @@
 # WebshellScout
 
-一个基于随机森林（1+1+4+92种特征）进行机器学习的php-webshell检测项目，后续可能添加神经网络进行训练，UI制作主要基于Python内置库tkinter，持续优化中~
+一个基于随机森林（1+1+4+92种特征）进行机器学习的php-webshell检测项目，后续可能添加神经网络进行训练，UI制作主要基于Python内置库tkinter，持续完善优化中~
 
 学习过程：https://www.yuque.com/sakura501/school/wc5qr9qeq7mdhfls
 
@@ -30,13 +30,32 @@ webshell-test-samples：大概是参考论文作者的测试数据集，不太�
 
 img：存放了tkinter需要使用的一些图片。
 
-## 运行&代码说明
-### 检测
-运行主要在main.py，包含有trainmodel.run_trainModel(随机森林训练)和run_check(随机森林检测)。
+## 设计&代码说明
+### 总体设计
+![初期设计](https://files.catbox.moe/vex81y.png)
 
-如果只使用检测模块，直接`python main.py`即可（现在主要完成了随机森林检测模块，主要tkinter的逻辑在run_tkinter_root函数中）
+### 主窗口
+![主窗口](https://files.catbox.moe/f9iz8k.png)
 
-温馨提示：训练模块中，可以先提取数据，再训练，因为提取特征值会耗费大量时间。同时，在训练集目录下除了black-traindata和white-traindata目录可以放置php文件，其他不可以放php文件，会出错！
+### 随机森林训练模块
+主要代码思想在trainModel.py中。
+
+随机森林的训练参数未做优化调整，为默认值；
+
+特征值提取序列化保存路径也为默认值:traindata/pre_feature-default.pkl，需要可修改；
+
+模型保存路径和训练数据集路径可选择；
+
+点击开始训练即可提取特征值&生成随机森林模型，同时会拿生成的模型对训练的数据做一次预测，输出四个模型标准值。（发现自己预测自己无任何意义，命中率百分之百😝）
+
+**注意：选择的训练数据路径需要有black-traindata和white-traindata两个目录，除了这两个目录可以放php文件外，训练路径下不能出现其他php文件！**
+
+![随机森林训练模块](https://files.catbox.moe/a3dvmw.png)
+
+### 随机森林检测
+主要代码逻辑在main.py，run_check函数为主要检测步骤。
+
+![随机森林检测模块](https://files.catbox.moe/wv8a0b.png)
 
 ### tkinter的主要思想
 主窗口：父窗口有四个功能按钮Button，主要放置在Canvas画布上，点击后可以弹出对应功能子窗口，进行功能使用；打开子窗口可以隐藏父窗口，关闭子窗口的同时能够返回父窗口。
@@ -44,13 +63,6 @@ img：存放了tkinter需要使用的一些图片。
 随机森林检测功能模块：这个子窗口也是主要放置在Canvas画布上，然后有多个Button（点击触发反馈）、Entry（展示路径）和Listbox（展示结果）。
 
 其他：待补充~
-
-### 训练
-如果需要训练模型，运行前需要修改目录和文件的路径，trainModel.py中。
-
-还需要在traindata目录中创建两个目录（如果没有）：black-traindata和white-traindata，分别存放webshell训练集和normal训练集。
-
-后续完成训练模块的编写~
 
 ## 训练&测试数据收集
 
@@ -70,29 +82,14 @@ https://github.com/WordPress/wordpress-develop（如果是这个的话，大概�
 https://github.com/laravel/laravel（正常框架
 https://github.com/x-o-r-r-o/PHP-Webshells-Collection（这个好像跟前面的phpwebshells也差不多
 ```
-## 设计&成果展示
-![初期设计](https://files.catbox.moe/vex81y.png)
-
-![主窗口](https://files.catbox.moe/f9iz8k.png)
-
-![随机森林检测模块](https://files.catbox.moe/wv8a0b.png)
-
-![随机森林训练模块](https://files.catbox.moe/a3dvmw.png)
-
-## 一些废话
-
-我训练了traindata目录下的所有数据，成功训练了829个php-webshell和1741个正常php文件。本来php-webshell是有1113个的，但是因为编码错误或者vld拓展解析不了失败了200多个。我设置的默认编解码方式是gbk，出错的话会直接跳过进行摆烂行为。暂时不知道如何解决。
-
-现在输出是在cmd和日志中，后续应该可以做成ui吧😕
-
-
-
 ## 待解决的问题OR完善
 
 - [ ] 随机森林调参优化
-- [ ] 随机森林训练模块UI制作
+- [x] 随机森林训练模块UI制作
 - [x] 随机森林检测模块UI制作
 - [ ] 神经网路训练模块UI制作
 - [ ] 神经网络检测模块UI制作
-- [ ] 对于编码错误或者无法检测的php文件输出检测error到控制台和UI中
+- [ ] 对于编码错误或者无法检测的php文件输出检测error到控制台和UI中。
+
+我训练了traindata目录下的所有数据，成功训练了829个php-webshell和1741个正常php文件。本来php-webshell是有1113个的，但是因为编码错误或者vld拓展解析不了失败了200多个。我设置的默认编解码方式是gbk，出错的话会直接跳过进行摆烂行为。暂时不知道如何解决。
 
