@@ -313,8 +313,8 @@ if __name__ == "__main__":
     photo = None
 
     # 模型加载路径和需要进行检测的文件目录的默认值,PS：训练模型的一些路径需要到trainModel.py中修改
-    loadmodel_name = r"C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\rfc.pkl"
-    filecheck_name = r"C:\Users\Lenovo\Desktop\python3Project\school\works\scout\check"
+    loadmodel_name = r"traindata/rfc-default.pkl"
+    filecheck_name = r"check"
 
     # 开启日志功能
     log()

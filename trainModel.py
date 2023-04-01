@@ -25,9 +25,9 @@ prefeature_pickleload_name = r"traindata/pre_feature-default.pkl"
 
 class trainModel:
     # 训练数据所在目录，需要分为两个目录black-traindata和white-traindata
-    fileread_name = r"C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata"
+    fileread_name = r"traindata"
     # 模型生成保存的路径
-    createmodel_name = r'C:\Users\Lenovo\Desktop\python3Project\school\works\scout\traindata\rfc-default.pkl'
+    createmodel_name = r'traindata/rfc-default.pkl'
 
     # 训练模型主函数。还是得把Listbox传递过来写值
     def run_trainModel(self,preditc_result_listbox):
