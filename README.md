@@ -6,6 +6,8 @@
 
 飞书文档：https://kjd3xtsq9r.feishu.cn/docx/I1D9dwEyQoD876x4lx9c8aHanyg
 
+发现了一个好东西，阿里云的学习赛：https://tianchi.aliyun.com/competition/entrance/532068/introduction
+
 ## 目录&文件说明
 
 Logs：存放控制台输出的日志记录，具体结构在Logger.py中
