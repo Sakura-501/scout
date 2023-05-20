@@ -16,13 +16,13 @@ traindata：包括有black-traindata和white-traindata两个目录存放webshell
 
 testdata1、testdata2: 存放待模型去检测的测试数据集。
 
-- rf文件夹：存放多层感知机模型的相关文件
+- rf文件夹：存放随机森林模型的相关文件
     - getDynamicFeature.py：包括有获取opcode动态特征值的各种函数（现在只搞了92种）
     - geStaticFeature.py：包括有获取信息熵、重合指数和四种恶意特征函数统计静态特征值的各种函数（1+1+4）
     - pre_feature.pkl为训练集中提取的特征值的序列化数据，具体结构可见pre_pickle.py
     - trainmodel.py 模型实现以及一些功能函数实现
 
-- mlp文件夹
+- mlp文件夹：存放多层感知机模型的相关文件
     - getDynamicFeature.py：包括有获取opcode动态特征值的各种函数（现在只搞了92种）
     - geStaticFeature.py：包括有获取信息熵、重合指数和四种恶意特征函数统计静态特征值的各种函数（1+1+4）
     - getData.py 实现获取文件所有特征的函数
