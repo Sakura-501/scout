@@ -12,21 +12,29 @@
 
 Logs：存放控制台输出的日志记录，具体结构在Logger.py中
 
-traindata：包括有black-traindata和white-traindata两个目录存放webshell训练集和normal训练集，pre_feature.pkl为训练集中提取的特征值的序列化数据，具体结构可见pre_pickle.py，rfc.pkl是使用joblib存储的RandomForestClassifier模型
+traindata：包括有black-traindata和white-traindata两个目录存放webshell训练集和normal训练集
 
-check: 存放待模型去检测的测试数据集，也可自行更改目录。
+testdata1、testdata2: 存放待模型去检测的测试数据集。
 
-getDynamicFeature.py：包括有获取opcode动态特征值的各种函数（现在只搞了92种）
+- rf文件夹：存放多层感知机模型的相关文件
+    - getDynamicFeature.py：包括有获取opcode动态特征值的各种函数（现在只搞了92种）
+    - geStaticFeature.py：包括有获取信息熵、重合指数和四种恶意特征函数统计静态特征值的各种函数（1+1+4）
+    - pre_feature.pkl为训练集中提取的特征值的序列化数据，具体结构可见pre_pickle.py
+    - trainmodel.py 模型实现以及一些功能函数实现
 
-geStaticFeature.py：包括有获取信息熵、重合指数和四种恶意特征函数统计静态特征值的各种函数（1+1+4）
+- mlp文件夹
+    - getDynamicFeature.py：包括有获取opcode动态特征值的各种函数（现在只搞了92种）
+    - geStaticFeature.py：包括有获取信息熵、重合指数和四种恶意特征函数统计静态特征值的各种函数（1+1+4）
+    - getData.py 实现获取文件所有特征的函数
+    - deeplearn.py 模型实现以及一些功能函数实现
 
-main.py：包含多种模块，1是随机森林训练模块，2是随机森林检测模块；现在已完成随机森林检测模的UI制作，可直接运行。
+- model_saved
+    - randomforest.pkl 训练好的rf模型
+    - mlp.pth 训练好的的mlp模型
 
-trainModel.py：训练模块的主要内容，可由main.py处进行调用训练。
+main.py：主程序，可直接运行。
 
 requirements.txt：直接pip freeze导出太多了，包含了一堆不太需要的依赖，所以我自己手写了，不知道有没有漏。
-
-test：存放了一些自行练习测试demo的东西。
 
 webshell-test-samples：大概是参考论文作者的测试数据集，不太清楚其中是否全为webshell。
 
