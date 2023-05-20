@@ -6,10 +6,12 @@
         <language minSize="103" name="Python" />
       </Languages>
     </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JSHint" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="27">
+          <list size="43">
             <item index="0" class="java.lang.String" itemvalue="mmdet" />
             <item index="1" class="java.lang.String" itemvalue="interrogate" />
             <item index="2" class="java.lang.String" itemvalue="isort" />
@@ -37,6 +39,22 @@
             <item index="24" class="java.lang.String" itemvalue="setuptools" />
             <item index="25" class="java.lang.String" itemvalue="requests" />
             <item index="26" class="java.lang.String" itemvalue="omegaconf" />
+            <item index="27" class="java.lang.String" itemvalue="networkx" />
+            <item index="28" class="java.lang.String" itemvalue="jieba" />
+            <item index="29" class="java.lang.String" itemvalue="joblib" />
+            <item index="30" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="31" class="java.lang.String" itemvalue="textrank4zh" />
+            <item index="32" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="33" class="java.lang.String" itemvalue="scipy" />
+            <item index="34" class="java.lang.String" itemvalue="bs4" />
+            <item index="35" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="36" class="java.lang.String" itemvalue="selenium" />
+            <item index="37" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="38" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="39" class="java.lang.String" itemvalue="sklearn" />
+            <item index="40" class="java.lang.String" itemvalue="fake-useragent" />
+            <item index="41" class="java.lang.String" itemvalue="wrapcache" />
+            <item index="42" class="java.lang.String" itemvalue="keras" />
           </list>
         </value>
       </option>
