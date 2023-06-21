@@ -31,8 +31,18 @@ def getTestData(filename='./testdata.txt'):
     test_data = np.array(test_data, dtype=float)
     test_x = test_data[:, :-1]
     test_y = test_data[:, -1]
+    true_evil = 0
+    true_good = 0
+    for i in test_y:
+        if i == 0:
+            true_good += 1
+        elif i == 1:
+            true_evil += 1
+        else:
+            print("wrong")
+
     test_x = torch.tensor(test_x, dtype=torch.float32)
     test_y = torch.tensor(test_y, dtype=torch.float32).reshape(-1, 1)
     test_dataset = torch.utils.data.TensorDataset(test_x, test_y)
     test_loader = DataLoader(dataset=test_dataset, batch_size=1404, shuffle=True)
-    return test_loader
+    return test_loader, true_evil, true_good

@@ -46,11 +46,12 @@ def train():
     print(f'training complete. file saved to {filename}')
 
 
-
 def test():
-    test_loader = getTestData()
+    test_loader, true_evil, true_good = getTestData()
     for data in test_loader:
         correct = 0
+        truly_evil_detected = 0
+        positive_predict = 0
         x_data, y_data = data[0], data[1]
         x_data = x_data.unsqueeze(1)
         model.load_state_dict(torch.load('lstm_model.pth'))
@@ -62,11 +63,21 @@ def test():
                 res = 0
             if res == y_data[i]:
                 correct = correct + 1
+            if res == 1 and y_data[i] == 1:
+                truly_evil_detected += 1
+            if res == 1:
+                positive_predict += 1
         print(f"预测正确率：{float(correct) / float(len(y_data))}")
+        recall = float(truly_evil_detected) / float(true_evil)
+        print(f"recall:{recall}")
+        precision = float(truly_evil_detected) / float(positive_predict)
+        print(f"precision:{precision}")
+        f1_score = 2 * (precision * recall) / (precision + recall)
+        print(f"f1_score:{f1_score}")
 
 
 def main():
-    train()
+    # train()
     test()
 
 
